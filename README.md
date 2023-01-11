@@ -14,6 +14,15 @@ The goal of this project is to apply semantic segmentation to images of the sky 
 
 All images were captured in Singapore using WAHRSIS, a calibrated ground-based whole sky imager, over a period of 22 months from October 2013 to July 2015. Each patch covers about 60-70 degrees of the sky with a resolution of 600x600 pixels."
 
+## **Results**
+
+The model used was a standard U-net style architecture with a binary output layer, created using Keras. A hold out set of 203 images (20%) was used for validation. Below are 3 sample results from this validation set — each figure contains the original image, the labeled ground truth, and the model's segmentation predictions.
+
+![](./Images/img016.png)
+
+![](./Images/img017.png)
+
+![](./Images/img101.png)
 
 ## **Links**
 
